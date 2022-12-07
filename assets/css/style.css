@@ -1,0 +1,37 @@
+/* global style */
+
+body {
+    background-color: black;
+    font-family: 'Roboto Mono', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+/* social links footer */
+
+footer a {
+    color: #fff;
+    margin-top: auto;
+}
+footer a:hover {
+    color: black;
+}
+
+.social-networks {
+    display: flex;
+    align-items: center;
+    background-color: #3a3a3a;
+    justify-content: center;
+}
+
+.social-networks li {
+    display: flex;
+    align-items: center;
+}
+
+.social-networks li {
+    font-size: 160%;
+    padding: 10px;
+    color: #fff;
+    list-style-type: none;
+}
