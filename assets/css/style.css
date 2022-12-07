@@ -22,9 +22,10 @@ footer a:hover {
     align-items: center;
     background-color: black;
     justify-content: center;
+    padding: 0;
 }
 
-.social-networks li {
+.social-networks ul {
     display: flex;
     align-items: center;
 }
@@ -39,8 +40,6 @@ footer a:hover {
 /* Style for index page */
 
 .container {
-    height: 80vh;
-    width: 80vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,4 +49,26 @@ footer a:hover {
 .column {
     display: flex;
     flex-direction: column;
+}
+
+.container img {
+    align-self: center;
+    flex: 1;
+    max-width: 100%;
+    max-height: 400px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.container ul {
+    align-self: center;
+    flex: 1;
+    max-width: 700px;
+    max-height: 400px;
+}
+
+.container ul li {
+    margin: 0;
+    list-style-type: none;
+   
 }
