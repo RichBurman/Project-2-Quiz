@@ -78,3 +78,37 @@ footer a:hover {
     list-style-type: none;
    
 }
+
+.btn {
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 1rem;
+    background: red 0%;
+    border-radius: 4px;
+    color: #fff;
+
+
+}
+
+.highscore-btn {
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 1rem;
+    background: blue 0%;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 red;
+    transition: transform 150ms;
+    transform: scale(1.01);
+}
+
+.highscore-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 blue;
+    transition: transform 150ms;
+    transform: scale(1.01);
+}
